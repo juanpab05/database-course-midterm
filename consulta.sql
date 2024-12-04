@@ -1,0 +1,1 @@
+SELECT id_ruta, placa, fecha, (SELECT capacidad FROM vehiculo WHERE vehiculoruta.placa = vehiculo.placa) FROM vehiculoruta
